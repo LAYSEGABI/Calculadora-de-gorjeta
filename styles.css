@@ -1,0 +1,107 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  color: #4e4d4d;
+}
+
+
+body {
+  background: url('dolar-billie-fundo-do-dinheiro_1150-741\ 1.png');
+  color: white;
+}
+
+main {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 3rem 1.6rem 6rem 1.6rem;
+  border-radius: 4rem;
+  background: rgba(2, 2, 2, 0.37);
+  box-shadow: 16px 22px 45px 0px rgba(0, 0, 0, 0.67);
+  border: 2px solid rgba(0, 0, 0, 0.089);
+  backdrop-filter: blur(2px);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 0;
+  padding-bottom: 3rem;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.192);
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+  padding: 0 1.6rem;
+  border-radius: 1rem;
+  box-shadow: inset 0 2px 2px lightgray;
+}
+
+section>div {
+  padding: 1.6rem 0;
+}
+
+.bill {
+  display: flex;
+}
+
+.bill label {
+  flex: 1;
+  align-self: center;
+}
+
+.bill input {
+  flex: 3;
+}
+
+input[type="number"] {
+  font-family: inherit;
+  background: #f4f4f5;
+  font-size: 1.6rem;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  padding: 0.8rem 0 0.8rem 1rem;
+  box-shadow: inset 0 2px 2px lightgray;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.range {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  margin-top: 1.2rem;
+  background: #eee;
+  border-radius: 0.3rem;
+  outline-color: #5bceae;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: #3dc0c0;
+  cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: #3dc0c0;
+  cursor: pointer;
+  border: 0;
+}
+
+.range::-moz-focus-outer {
+  border: 0;
+}
